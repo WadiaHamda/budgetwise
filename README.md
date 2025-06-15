@@ -25,4 +25,14 @@ Technologies utilisées :
 - GitHub Actions
 - Render.com
 
+---
+
+Démo en ligne : 
+
+Lien vers l'application déployée sur Render : https://budgetwise-7m27.onrender.com/
+
+---
+
+Dépôt GitHub :
+
 https://github.com/WadiaHamda/budgetwise
