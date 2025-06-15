@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>BudgetWise</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BudgetWise</h1>
+
+        <section>
+            <h2>Ajouter un revenu</h2>
+            <input type="number" id="revenu-montant" placeholder="Montant (€)">
+            <input type="text" id="revenu-description" placeholder="Description">
+            <button onclick="ajouterRevenu()">Ajouter</button>
+        </section>
+
+        <section>
+            <h2>Ajouter une dépense</h2>
+            <input type="number" id="depense-montant" placeholder="Montant (€)">
+            <input type="text" id="depense-description" placeholder="Description">
+            <input type="text" id="depense-categorie" placeholder="Catégorie">
+            <button onclick="ajouterDepense()">Ajouter</button>
+        </section>
+
+        <section>
+            <h2>Calculer le solde</h2>
+            <button onclick="calculerSolde()">Afficher le solde</button>
+            <p id="resultat-solde"></p>
+        </section>
+    </div>
+
+    <script src="/frontend/script.js"></script>
+</body>
+</html>
